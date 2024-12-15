@@ -1,1 +1,95 @@
-/* Denna fil skall innehålla din CSS kod */
+body {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "headline"
+        "news"
+        "reviews"
+        "guides"
+        "products"
+        "footer";
+    grid-template-rows: auto;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+ 
+.header {
+    grid-area: header;
+    background-color: #2980b9;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+ 
+.header .logo {
+    font-size: 1.5rem;
+}
+ 
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+ 
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+ 
+.headline {
+    grid-area: headline;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    height: 430px;
+}
+ 
+.news, .reviews, .guides, .products, .footer {
+    padding: 2rem;
+    text-align: center;
+}
+ 
+.news {
+    grid-area: news;
+    background-color: #ecf0f1;
+}
+ 
+.reviews {
+    grid-area: reviews;
+    background-color: #bdc3c7;
+}
+ 
+.reviews .service-tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+ 
+.reviews .service-tile {
+    background-color: #ecf0f1;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+ 
+.guides {
+    grid-area: guides;
+    background-color: #ecf0f1;
+}
+ 
+.products {
+    grid-area: products;
+    background-color: #bdc3c7;
+}
+ 
+.footer {
+    grid-area: footer;
+    background-color: #2980b9;
+    color: white;
+}
