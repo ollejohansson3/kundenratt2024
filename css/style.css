@@ -58,7 +58,20 @@ body {
     grid-area: news;
     background-color: #ecf0f1;
 }
+.news .service-tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
  
+.news .service-tile {
+    background-color: #ecf0f1;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .reviews {
     grid-area: reviews;
     background-color: #bdc3c7;
@@ -82,12 +95,39 @@ body {
     grid-area: guides;
     background-color: #ecf0f1;
 }
+
+.guides .service-tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
  
+.guides .service-tile {
+    background-color: #ecf0f1;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .products {
     grid-area: products;
     background-color: #bdc3c7;
 }
+.products .service-tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
  
+.products .service-tile {
+    background-color: #ecf0f1;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} 
+
 .footer {
     grid-area: footer;
     background-color: #2980b9;
