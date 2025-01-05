@@ -39,7 +39,10 @@ body {
     color: white;
     text-decoration: none;
 }
- 
+
+.nav a:hover {
+    color: grey;
+  }
 .headline {
     grid-area: headline;
     background-color: #1e1e1e;
@@ -133,3 +136,23 @@ body {
     background-color: #2980b9;
     color: white;
 }
+
+
+
+.flexLåda {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-flow: row wrap;
+    background-color: white;
+    height: 20em;
+    justify-content: center;
+    gap: 10px;
+}
+  
+  .flexElement {
+    border: 1px solid #2980b9;
+    margin: 4px;
+    width: 10em;
+    background-color: white;
+    border-radius: 8px;
+  }
