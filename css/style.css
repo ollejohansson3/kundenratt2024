@@ -42,7 +42,7 @@ body {
  
 .headline {
     grid-area: headline;
-    background-color: #3498db;
+    background-color: #1e1e1e;
     color: white;
     text-align: center;
     padding: 2rem;
@@ -56,7 +56,7 @@ body {
  
 .news {
     grid-area: news;
-    background-color: #ecf0f1;
+    background-color: #ffffff;
 }
 .news .service-tiles {
     display: grid;
@@ -74,7 +74,7 @@ body {
 
 .reviews {
     grid-area: reviews;
-    background-color: #bdc3c7;
+    background-color: #ffffff;
 }
  
 .reviews .service-tiles {
@@ -93,7 +93,7 @@ body {
  
 .guides {
     grid-area: guides;
-    background-color: #ecf0f1;
+    background-color: #ffffff;
 }
 
 .guides .service-tiles {
@@ -112,7 +112,7 @@ body {
 
 .products {
     grid-area: products;
-    background-color: #bdc3c7;
+    background-color: #ffffff;
 }
 .products .service-tiles {
     display: grid;
