@@ -25,6 +25,9 @@ body {
  
 .header .logo {
     font-size: 1.5rem;
+    text-decoration: none;
+    color:white;
+    
 }
  
 .nav ul {
@@ -41,7 +44,7 @@ body {
 }
 
 .nav a:hover {
-    color: grey;
+    color: rgb(220, 220, 220);
   }
 .headline {
     grid-area: headline;
@@ -144,13 +147,12 @@ body {
     flex-direction: column-reverse;
     flex-flow: row wrap;
     background-color: white;
-    height: 20em;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
   
   .flexElement {
-    border: 1px solid #2980b9;
+    border: 2px solid #2980b9;
     margin: 4px;
     width: 10em;
     background-color: white;
