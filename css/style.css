@@ -140,7 +140,10 @@ body {
     color: white;
 }
 
-
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
 
 .flexLåda {
     display: flex;
@@ -158,3 +161,6 @@ body {
     background-color: white;
     border-radius: 8px;
   }
+
+
+
